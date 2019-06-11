@@ -134,14 +134,8 @@ public class ParaUI extends UI {
 		getAtenderCita().getComboBoxMedico()
 				.addActionListener(new AtenderCitaComboMEdico(getControl(), getAtenderCita()));
 		getAtenderCita().getBtnAtender().addActionListener(new ActionAtenderCitaPendiente(control, getAtenderCita()));
-
-		getBtnPasarHora().addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				control.getPasarHora();
-				getLabelFecha(control.getFecha());
-			}
-		});
-	}
+		};
+	
 
 	public void rellenarComboBoxPaciente(JComboBox<String> id, JComboBox<String> nombre) {
 		nombre.removeAllItems();

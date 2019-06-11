@@ -211,18 +211,6 @@ public class Logica {
 		this.gestorDTO.getGrabarMapPaciente(this.mapPaciente);
 	}
 
-	public void getPasarHora() {
-		this.calendario.sumarHora();
-//		for (Iterator iterator = citas.iterator(); iterator.hasNext();) {
-//			Cita cita = (Cita) iterator.next();
-//			if (calendario.isRealizado(cita.getFecha())) {
-//				cita.setAsistencia(true);
-//				iterator.remove();
-//			}
-//		}
-		this.gestorDTO.getGrabarCalendario(this.calendario);
-	}
-
 	public String getFecha() {
 		return this.calendario.getFecha();
 	}

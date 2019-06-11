@@ -120,9 +120,6 @@ public class Control {
 		return this.logica.getFecha();
 	}
 
-	public void getPasarHora() {
-		this.logica.getPasarHora();
-	}
 	public void getAddTratamiento(String nombrePaciente, String dosis, String periodo, Medicamento medicamento) {
 		 this.logica.getAddTratamiento(nombrePaciente, dosis, periodo, medicamento);
 	}
