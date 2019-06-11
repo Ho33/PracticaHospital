@@ -14,6 +14,7 @@ public class Consulta implements Serializable {
 
 	public Consulta(String id, Especialidad especialidad) {
 		super();
+		this.especialidad = especialidad;
 		this.medicos = new ArrayList<Medico>();
 		this.horario = new Horario();
 		this.id = id;
